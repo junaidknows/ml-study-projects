@@ -1,0 +1,11 @@
+prefix=/Users/junaid/Desktop/ML_Projects/Sample_Project1/env
+exec_prefix=/Users/junaid/Desktop/ML_Projects/Sample_Project1/env
+libdir=/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/lib
+includedir=/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}

@@ -1,0 +1,5 @@
+#!/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/bin/python3.12
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

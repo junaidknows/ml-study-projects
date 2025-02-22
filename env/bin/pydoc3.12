@@ -1,0 +1,5 @@
+#!/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

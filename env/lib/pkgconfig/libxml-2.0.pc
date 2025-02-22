@@ -1,0 +1,13 @@
+prefix=/Users/junaid/Desktop/ML_Projects/Sample_Project1/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.5
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/lib -lz -L/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/lib -llzma  -L/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/junaid/Desktop/ML_Projects/Sample_Project1/env/include 
