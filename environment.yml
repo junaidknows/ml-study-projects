@@ -1,4 +1,4 @@
-name: /Users/junaid/Desktop/ML_Projects/ml-study-projects/env
+name: ml-study-env
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
