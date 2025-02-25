@@ -1,0 +1,15 @@
+name: ml-study-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - seaborn
+  - pip:
+      - requests  # Replace with actual packages or remove if none are needed
